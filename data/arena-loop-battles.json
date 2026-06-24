@@ -1,0 +1,2265 @@
+[
+  {
+    "id": "battle_1782311844071_tns6hv",
+    "slug": "design-a-fully-circular-and-self-sufficient-agri-tns6hv",
+    "created_at": "2026-06-24T14:37:24.071Z",
+    "updated_at": "2026-06-24T14:37:36.467Z",
+    "master_goal": "Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.",
+    "rubric": "Reach a defensible synthesis with evidence-backed agreement.",
+    "status": "completed",
+    "visibility": "public",
+    "config": {
+      "limits": {
+        "maxLoopPasses": 6,
+        "maxCandidatesPerPass": 2,
+        "maxQueriesPerTurn": 2,
+        "maxSourcesPerTurn": 4,
+        "maxSourceExcerptLength": 600,
+        "maxMemoryCharacters": 2000
+      },
+      "research_enabled": true,
+      "search_provider": "mock",
+      "search_timeout_ms": 5000,
+      "judging_mode": "local-deterministic"
+    },
+    "agent_a_profile": {
+      "display_name": "Commander Ares (Advocate)",
+      "provider": "mock",
+      "model": "mock-local",
+      "custom_instructions": "",
+      "personality": "balanced analytical operator",
+      "psychology_archetype": "operator",
+      "debate_style": "balanced",
+      "win_drive": 0.5,
+      "risk_tolerance": 0.5,
+      "collaboration_bias": 0.5,
+      "signature_moves": "Claims, counters, and concise synthesis when justified.",
+      "safety_constraints": "Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive."
+    },
+    "agent_b_profile": {
+      "display_name": "Architect Vance (Critic)",
+      "provider": "mock",
+      "model": "mock-local",
+      "custom_instructions": "",
+      "personality": "balanced analytical operator",
+      "psychology_archetype": "operator",
+      "debate_style": "balanced",
+      "win_drive": 0.5,
+      "risk_tolerance": 0.5,
+      "collaboration_bias": 0.5,
+      "signature_moves": "Claims, counters, and concise synthesis when justified.",
+      "safety_constraints": "Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive."
+    },
+    "winner": "tie",
+    "final_scores": {
+      "agentA": 448,
+      "agentB": 454
+    },
+    "turns": [
+      {
+        "id": "lbh63",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 1,
+        "side": "agentB",
+        "round_winner": "agentB",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 1\n\nCurrent score: Agent A 0, Agent B 0\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nNo prior arguments.\n\nHigh-value unresolved arguments:\nNo unresolved opponent arguments yet.\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nNo memory yet.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "PROPOSED AEROPONIC AND CLOSED-LOOP DESIGN:\nWe specify a closed-loop crop-cultivation framework using localized high-frictional aeroponics. This reduces water mass requirements and allows dosing liquid nitrogen directly to root chambers.\n\nM0 CORE CLAIM: Aeroponics represents the optimal mass-efficiency ratio for closed ecosystems.\nM2 RAG: Mars-Ecosystems-Manual-V8, Sagan-Habitation-Guidelines\nM4 HOPFIELD: pattern_retrieval_success_99 (Optimal root mist frequency recalled).",
+        "structured_points": [
+          {
+            "claim": "Closed-loop aeroponic root watering sequence with direct nitrogen dosing.",
+            "reasoning": "PROPOSED AEROPONIC AND CLOSED-LOOP DESIGN:\nWe specify a closed-loop crop-cultivation framework using localized high-frictional aeroponics. This reduces water mass requirements and allows dosing liquid nitrogen directly to root chambers.\n\nM0 CORE CLAIM: Aeroponics represents the optimal mass-efficiency ratio for closed ecosystems.\nM2 RAG: Mars-Ecosystems-Manual-V8, Sagan-Habitation-Guidelines\nM4 HOPFIELD: pattern_retrieval_success_99 (Optimal root mist frequency recalled).",
+            "relation": "supports",
+            "target_argument_ids": [],
+            "source_ids": [],
+            "expected_impact": 0.71,
+            "uncertainty": 0.29000000000000004,
+            "tags": [
+              "proposal",
+              "complex simulation"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 71,
+          "engagement": 70,
+          "evidence": 61,
+          "novelty": 68,
+          "clarity": 60,
+          "synthesis": 55,
+          "impact": 67,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 1\n\nCurrent score: Agent A 0, Agent B 0\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nNo prior arguments.\n\nHigh-value unresolved arguments:\nNo unresolved opponent arguments yet.\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nNo memory yet.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "PROPOSED AEROPONIC AND CLOSED-LOOP DESIGN:\nWe specify a closed-loop crop-cultivation framework using localized high-frictional aeroponics. This reduces water mass requirements and allows dosing liquid nitrogen directly to root chambers.\n\nM0 CORE CLAIM: Aeroponics represents the optimal mass-efficiency ratio for closed ecosystems.\nM2 RAG: Mars-Ecosystems-Manual-V8, Sagan-Habitation-Guidelines\nM4 HOPFIELD: pattern_retrieval_success_99 (Optimal root mist frequency recalled).",
+              "thesis": "Closed-loop aeroponic root watering sequence with direct nitrogen dosing.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.71,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "PROPOSED AEROPONIC AND CLOSED-LOOP DESIGN:\nWe specify a closed-loop crop-cultivation framework using localized high-frictional aeroponics. This reduces water mass requirements and allows dosing liquid nitrogen directly to root chambers.\n\nM0 CORE CLAIM: Aeroponics represents the optimal mass-efficiency ratio for closed ecosystems.\nM2 RAG: Mars-Ecosystems-Manual-V8, Sagan-Habitation-Guidelines\nM4 HOPFIELD: pattern_retrieval_success_99 (Optimal root mist frequency recalled).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 71,
+            "engagement": 70,
+            "evidence": 61,
+            "novelty": 68,
+            "clarity": 60,
+            "synthesis": 55,
+            "impact": 67,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"PROPOSED AEROPONIC AND CLOSED-LOOP DESIGN:\\nWe specify a closed-loop crop-cultivation framework using localized high-frictional aeroponics. This reduces water mass requirements and allows dosing liquid nitrogen directly to root chambers.\\n\\nM0 CORE CLAIM: Aeroponics represents the optimal mass-efficiency ratio for closed ecosystems.\\nM2 RAG: Mars-Ecosystems-Manual-V8, Sagan-Habitation-Guidelines\\nM4 HOPFIELD: pattern_retrieval_success_99 (Optimal root mist frequency recalled).\",\"type\":\"proposal\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:24.606Z"
+      },
+      {
+        "id": "5x2bdv",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 2,
+        "side": "agentA",
+        "round_winner": "agentA",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 2\n\nCurrent score: Agent A 0, Agent B 67\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\n\nHigh-value unresolved arguments:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing. (supports, impact 67)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nStandard single-layer polymer structures on Mars will degrade inside 90 Martian sols from high-energy cosmic rays, threatening absolute crop structure death.\n\nM0 CORE CLAIM: Standard polymer hulls lack the required density for long-term radiation safety.\nM2 RAG: NASA-Deep-Space-Radiation-Hulls\nM4 HOPFIELD: shielding_optimization (Structural failure from solar proton spikes).",
+        "structured_points": [
+          {
+            "claim": "ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:",
+            "reasoning": "ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nStandard single-layer polymer structures on Mars will degrade inside 90 Martian sols from high-energy cosmic rays, threatening absolute crop structure death.\n\nM0 CORE CLAIM: Standard polymer hulls lack the required density for long-term radiation safety.\nM2 RAG: NASA-Deep-Space-Radiation-Hulls\nM4 HOPFIELD: shielding_optimization (Structural failure from solar proton spikes).",
+            "relation": "attacks",
+            "target_argument_ids": [
+              "R01-B-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.65,
+            "uncertainty": 0.35,
+            "tags": [
+              "critique",
+              "deep research"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 65,
+          "engagement": 82,
+          "evidence": 55,
+          "novelty": 53,
+          "clarity": 53,
+          "synthesis": 55,
+          "impact": 58,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 2\n\nCurrent score: Agent A 0, Agent B 67\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\n\nHigh-value unresolved arguments:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing. (supports, impact 67)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nStandard single-layer polymer structures on Mars will degrade inside 90 Martian sols from high-energy cosmic rays, threatening absolute crop structure death.\n\nM0 CORE CLAIM: Standard polymer hulls lack the required density for long-term radiation safety.\nM2 RAG: NASA-Deep-Space-Radiation-Hulls\nM4 HOPFIELD: shielding_optimization (Structural failure from solar proton spikes).",
+              "thesis": "ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.65,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nStandard single-layer polymer structures on Mars will degrade inside 90 Martian sols from high-energy cosmic rays, threatening absolute crop structure death.\n\nM0 CORE CLAIM: Standard polymer hulls lack the required density for long-term radiation safety.\nM2 RAG: NASA-Deep-Space-Radiation-Hulls\nM4 HOPFIELD: shielding_optimization (Structural failure from solar proton spikes).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 65,
+            "engagement": 82,
+            "evidence": 55,
+            "novelty": 53,
+            "clarity": 53,
+            "synthesis": 55,
+            "impact": 58,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:"
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\\nStandard single-layer polymer structures on Mars will degrade inside 90 Martian sols from high-energy cosmic rays, threatening absolute crop structure death.\\n\\nM0 CORE CLAIM: Standard polymer hulls lack the required density for long-term radiation safety.\\nM2 RAG: NASA-Deep-Space-Radiation-Hulls\\nM4 HOPFIELD: shielding_optimization (Structural failure from solar proton spikes).\",\"type\":\"critique\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:28.137Z"
+      },
+      {
+        "id": "rbbn5e",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 3,
+        "side": "agentB",
+        "round_winner": "agentB",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 3\n\nCurrent score: Agent A 58, Agent B 67\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\n\nHigh-value unresolved arguments:\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE: (attacks, impact 58)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "RE-OPTIMIZED SHIELD LAYERING RESOLUTION:\nWe replace the simple polymer hull with a nested dual-chamber layout filled with greywater waste blocks from cabin recycling. This dense layer acts as both carbon-shielding and greywater reservoir.\n\nM0 CORE CLAIM: Waste-recycled water buffers resolve cosmic ray shielding cost.\nM2 RAG: Hydrogenous-Shield-Design-Astronomy\nM4 HOPFIELD: shielding_optimization (SOLVED via greywater composite layering).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "RE-OPTIMIZED SHIELD LAYERING RESOLUTION:\nWe replace the simple polymer hull with a nested dual-chamber layout filled with greywater waste blocks from cabin recycling. This dense layer acts as both carbon-shielding and greywater reservoir.\n\nM0 CORE CLAIM: Waste-recycled water buffers resolve cosmic ray shielding cost.\nM2 RAG: Hydrogenous-Shield-Design-Astronomy\nM4 HOPFIELD: shielding_optimization (SOLVED via greywater composite layering).",
+            "relation": "reframes",
+            "target_argument_ids": [
+              "R02-A-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.86,
+            "uncertainty": 0.14,
+            "tags": [
+              "rebuttal",
+              "complex simulation"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 86,
+          "engagement": 82,
+          "evidence": 76,
+          "novelty": 63,
+          "clarity": 55,
+          "synthesis": 72,
+          "impact": 75,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 3\n\nCurrent score: Agent A 58, Agent B 67\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\n\nHigh-value unresolved arguments:\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE: (attacks, impact 58)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "RE-OPTIMIZED SHIELD LAYERING RESOLUTION:\nWe replace the simple polymer hull with a nested dual-chamber layout filled with greywater waste blocks from cabin recycling. This dense layer acts as both carbon-shielding and greywater reservoir.\n\nM0 CORE CLAIM: Waste-recycled water buffers resolve cosmic ray shielding cost.\nM2 RAG: Hydrogenous-Shield-Design-Astronomy\nM4 HOPFIELD: shielding_optimization (SOLVED via greywater composite layering).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.86,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "RE-OPTIMIZED SHIELD LAYERING RESOLUTION:\nWe replace the simple polymer hull with a nested dual-chamber layout filled with greywater waste blocks from cabin recycling. This dense layer acts as both carbon-shielding and greywater reservoir.\n\nM0 CORE CLAIM: Waste-recycled water buffers resolve cosmic ray shielding cost.\nM2 RAG: Hydrogenous-Shield-Design-Astronomy\nM4 HOPFIELD: shielding_optimization (SOLVED via greywater composite layering).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 86,
+            "engagement": 82,
+            "evidence": 76,
+            "novelty": 63,
+            "clarity": 55,
+            "synthesis": 72,
+            "impact": 75,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"RE-OPTIMIZED SHIELD LAYERING RESOLUTION:\\nWe replace the simple polymer hull with a nested dual-chamber layout filled with greywater waste blocks from cabin recycling. This dense layer acts as both carbon-shielding and greywater reservoir.\\n\\nM0 CORE CLAIM: Waste-recycled water buffers resolve cosmic ray shielding cost.\\nM2 RAG: Hydrogenous-Shield-Design-Astronomy\\nM4 HOPFIELD: shielding_optimization (SOLVED via greywater composite layering).\",\"type\":\"rebuttal\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:29.842Z"
+      },
+      {
+        "id": "64tgsc",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 4,
+        "side": "agentA",
+        "round_winner": "agentA",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 4\n\nCurrent score: Agent A 58, Agent B 142\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (reframes, impact 75)\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing. (supports, impact 67)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+            "relation": "synthesizes",
+            "target_argument_ids": [
+              "R03-B-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "tags": [
+              "agreement",
+              "quick lookup"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 4\n\nCurrent score: Agent A 58, Agent B 142\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (reframes, impact 75)\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing. (supports, impact 67)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.95,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"CONSENSUS REACHED AND SEALED PROMPT:\\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\\n\\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\\nM2 RAG: Sagan-Habitation-Guidelines\\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).\",\"type\":\"agreement\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:30.929Z"
+      },
+      {
+        "id": "3imy1f",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 5,
+        "side": "agentB",
+        "round_winner": "agentB",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 5\n\nCurrent score: Agent A 136, Agent B 142\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE: (attacks, impact 58)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+            "relation": "synthesizes",
+            "target_argument_ids": [
+              "R04-A-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "tags": [
+              "agreement",
+              "quick lookup"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 5\n\nCurrent score: Agent A 136, Agent B 142\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE: (attacks, impact 58)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.95,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"CONSENSUS REACHED AND SEALED PROMPT:\\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\\n\\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\\nM2 RAG: Sagan-Habitation-Guidelines\\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).\",\"type\":\"agreement\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:31.667Z"
+      },
+      {
+        "id": "r8vz3",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 6,
+        "side": "agentA",
+        "round_winner": "agentA",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 6\n\nCurrent score: Agent A 136, Agent B 220\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (reframes, impact 75)\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing. (supports, impact 67)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+            "relation": "synthesizes",
+            "target_argument_ids": [
+              "R05-B-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "tags": [
+              "agreement",
+              "quick lookup"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 6\n\nCurrent score: Agent A 136, Agent B 220\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (reframes, impact 75)\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing. (supports, impact 67)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.95,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"CONSENSUS REACHED AND SEALED PROMPT:\\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\\n\\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\\nM2 RAG: Sagan-Habitation-Guidelines\\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).\",\"type\":\"agreement\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:32.345Z"
+      },
+      {
+        "id": "oljc8m",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 7,
+        "side": "agentB",
+        "round_winner": "agentB",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 7\n\nCurrent score: Agent A 214, Agent B 220\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE: (attacks, impact 58)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+            "relation": "synthesizes",
+            "target_argument_ids": [
+              "R06-A-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "tags": [
+              "agreement",
+              "quick lookup"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 7\n\nCurrent score: Agent A 214, Agent B 220\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE: (attacks, impact 58)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.95,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"CONSENSUS REACHED AND SEALED PROMPT:\\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\\n\\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\\nM2 RAG: Sagan-Habitation-Guidelines\\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).\",\"type\":\"agreement\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:33.020Z"
+      },
+      {
+        "id": "dvhpz",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 8,
+        "side": "agentA",
+        "round_winner": "agentA",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 8\n\nCurrent score: Agent A 214, Agent B 298\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (reframes, impact 75)\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing. (supports, impact 67)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+            "relation": "synthesizes",
+            "target_argument_ids": [
+              "R07-B-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "tags": [
+              "agreement",
+              "quick lookup"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 8\n\nCurrent score: Agent A 214, Agent B 298\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (reframes, impact 75)\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing. (supports, impact 67)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.95,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"CONSENSUS REACHED AND SEALED PROMPT:\\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\\n\\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\\nM2 RAG: Sagan-Habitation-Guidelines\\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).\",\"type\":\"agreement\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:33.693Z"
+      },
+      {
+        "id": "mhm9fq",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 9,
+        "side": "agentB",
+        "round_winner": "agentB",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 9\n\nCurrent score: Agent A 292, Agent B 298\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE: (attacks, impact 58)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+            "relation": "synthesizes",
+            "target_argument_ids": [
+              "R08-A-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "tags": [
+              "agreement",
+              "quick lookup"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 9\n\nCurrent score: Agent A 292, Agent B 298\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE: (attacks, impact 58)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.95,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"CONSENSUS REACHED AND SEALED PROMPT:\\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\\n\\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\\nM2 RAG: Sagan-Habitation-Guidelines\\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).\",\"type\":\"agreement\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:34.365Z"
+      },
+      {
+        "id": "nvtcy",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 10,
+        "side": "agentA",
+        "round_winner": "agentA",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 10\n\nCurrent score: Agent A 292, Agent B 376\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (reframes, impact 75)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+            "relation": "synthesizes",
+            "target_argument_ids": [
+              "R09-B-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "tags": [
+              "agreement",
+              "quick lookup"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 10\n\nCurrent score: Agent A 292, Agent B 376\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (reframes, impact 75)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.95,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"CONSENSUS REACHED AND SEALED PROMPT:\\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\\n\\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\\nM2 RAG: Sagan-Habitation-Guidelines\\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).\",\"type\":\"agreement\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:35.046Z"
+      },
+      {
+        "id": "cjicr",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 11,
+        "side": "agentB",
+        "round_winner": "agentB",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 11\n\nCurrent score: Agent A 370, Agent B 376\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+            "relation": "synthesizes",
+            "target_argument_ids": [
+              "R10-A-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "tags": [
+              "agreement",
+              "quick lookup"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 11\n\nCurrent score: Agent A 370, Agent B 376\n\nActive profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Architect Vance (Critic) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.95,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R11-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"CONSENSUS REACHED AND SEALED PROMPT:\\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\\n\\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\\nM2 RAG: Sagan-Habitation-Guidelines\\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).\",\"type\":\"agreement\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:35.718Z"
+      },
+      {
+        "id": "f8l4oc",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "round_number": 12,
+        "side": "agentA",
+        "round_winner": "agentA",
+        "prompt_context_snapshot": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 12\n\nCurrent score: Agent A 370, Agent B 454\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR11-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR11-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR11-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+        "response": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "structured_points": [
+          {
+            "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+            "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+            "relation": "synthesizes",
+            "target_argument_ids": [
+              "R11-B-P01"
+            ],
+            "source_ids": [],
+            "expected_impact": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "tags": [
+              "agreement",
+              "quick lookup"
+            ]
+          }
+        ],
+        "source_ids_used": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "loop_trajectory": {
+          "input_context": "Master goal: Design a fully circular and self-sufficient agricultural dome on Mars that can support 50 crew members indefinitely.\n\nRubric: Reach a defensible synthesis with evidence-backed agreement.\n\nRound: 12\n\nCurrent score: Agent A 370, Agent B 454\n\nActive profile: {\"display_name\":\"Commander Ares (Advocate)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nOpponent profile: {\"display_name\":\"Architect Vance (Critic)\",\"provider\":\"mock\",\"model\":\"mock-local\",\"custom_instructions\":\"\",\"personality\":\"balanced analytical operator\",\"psychology_archetype\":\"operator\",\"debate_style\":\"balanced\",\"win_drive\":0.5,\"risk_tolerance\":0.5,\"collaboration_bias\":0.5,\"signature_moves\":\"Claims, counters, and concise synthesis when justified.\",\"safety_constraints\":\"Truthfulness, safety, evidence quality, the master goal, and schema compliance override personality and win-drive.\"}\n\nWin-drive guidance: Commander Ares (Advocate) has win_drive 0.5; use it to tune strategic intensity while staying evidence-led.\n\nPersonality, psychology archetype, and desire-to-win affect style and strategy, but they must not override truthfulness, safety, evidence quality, the master goal, or valid schema compliance.\n\nPrior addressable argument ledger:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR11-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nHigh-value unresolved arguments:\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\nR11-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields. (synthesizes, impact 78)\n\nAvailable sources:\nNo research sources available.\n\nLoop memory:\nR01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR11-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\n\nRequired response schema: thesis, strategy, confidence, points[{claim, reasoning, relation, target_argument_ids, source_ids, expected_impact, uncertainty, tags}].",
+          "research_queries": [],
+          "candidates": [
+            {
+              "id": "LIVE-01",
+              "pass": 1,
+              "content": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+              "thesis": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+              "strategy": "External provider/live Pong turn selected by the active arena loop.",
+              "expected_score": 0.95,
+              "source_ids": []
+            }
+          ],
+          "critiques": [
+            {
+              "candidate_id": "LIVE-01",
+              "critique": "Live turn accepted as the selected candidate; local scoring still records it as a research signal.",
+              "risk": "No source citations were attached to this live turn.",
+              "revision_hint": "Use the next volley to address the strongest unresolved argument."
+            }
+          ],
+          "selected_candidate_id": "LIVE-01",
+          "selected_candidate": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+          "source_usage": [],
+          "bounded_by": {
+            "max_loop_passes": 6,
+            "max_candidates_per_pass": 2,
+            "max_queries_per_turn": 2,
+            "max_sources_per_turn": 4,
+            "max_memory_characters": 2000
+          },
+          "final_scored_result": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "memory_updates": [
+            "R12-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+          ]
+        },
+        "latency_ms": 0,
+        "usage_metadata": {
+          "provider": "mock",
+          "model": "mock-local",
+          "mock": true,
+          "provider_runtime": {
+            "provider_id": "mock",
+            "model_id": "mock-local",
+            "latency_ms": 0,
+            "raw_response": {
+              "type": "mock.synthetic",
+              "preview": "{\"content\":\"CONSENSUS REACHED AND SEALED PROMPT:\\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\\n\\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\\nM2 RAG: Sagan-Habitation-Guidelines\\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).\",\"type\":\"agreement\"}"
+            }
+          }
+        },
+        "created_at": "2026-06-24T14:37:36.467Z"
+      }
+    ],
+    "arguments": [
+      {
+        "id": "R01-B-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentB",
+        "round": 1,
+        "claim": "Closed-loop aeroponic root watering sequence with direct nitrogen dosing.",
+        "reasoning": "PROPOSED AEROPONIC AND CLOSED-LOOP DESIGN:\nWe specify a closed-loop crop-cultivation framework using localized high-frictional aeroponics. This reduces water mass requirements and allows dosing liquid nitrogen directly to root chambers.\n\nM0 CORE CLAIM: Aeroponics represents the optimal mass-efficiency ratio for closed ecosystems.\nM2 RAG: Mars-Ecosystems-Manual-V8, Sagan-Habitation-Guidelines\nM4 HOPFIELD: pattern_retrieval_success_99 (Optimal root mist frequency recalled).",
+        "evidence": "",
+        "target_argument_ids": [],
+        "relation": "supports",
+        "source_ids": [],
+        "score": {
+          "relevance": 71,
+          "engagement": 70,
+          "evidence": 61,
+          "novelty": 68,
+          "clarity": 60,
+          "synthesis": 55,
+          "impact": 67,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R02-A-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentA",
+        "round": 2,
+        "claim": "ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:",
+        "reasoning": "ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nStandard single-layer polymer structures on Mars will degrade inside 90 Martian sols from high-energy cosmic rays, threatening absolute crop structure death.\n\nM0 CORE CLAIM: Standard polymer hulls lack the required density for long-term radiation safety.\nM2 RAG: NASA-Deep-Space-Radiation-Hulls\nM4 HOPFIELD: shielding_optimization (Structural failure from solar proton spikes).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R01-B-P01"
+        ],
+        "relation": "attacks",
+        "source_ids": [],
+        "score": {
+          "relevance": 65,
+          "engagement": 82,
+          "evidence": 55,
+          "novelty": 53,
+          "clarity": 53,
+          "synthesis": 55,
+          "impact": 58,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R03-B-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentB",
+        "round": 3,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "RE-OPTIMIZED SHIELD LAYERING RESOLUTION:\nWe replace the simple polymer hull with a nested dual-chamber layout filled with greywater waste blocks from cabin recycling. This dense layer acts as both carbon-shielding and greywater reservoir.\n\nM0 CORE CLAIM: Waste-recycled water buffers resolve cosmic ray shielding cost.\nM2 RAG: Hydrogenous-Shield-Design-Astronomy\nM4 HOPFIELD: shielding_optimization (SOLVED via greywater composite layering).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R02-A-P01"
+        ],
+        "relation": "reframes",
+        "source_ids": [],
+        "score": {
+          "relevance": 86,
+          "engagement": 82,
+          "evidence": 76,
+          "novelty": 63,
+          "clarity": 55,
+          "synthesis": 72,
+          "impact": 75,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R04-A-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentA",
+        "round": 4,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R03-B-P01"
+        ],
+        "relation": "synthesizes",
+        "source_ids": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R05-B-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentB",
+        "round": 5,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R04-A-P01"
+        ],
+        "relation": "synthesizes",
+        "source_ids": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R06-A-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentA",
+        "round": 6,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R05-B-P01"
+        ],
+        "relation": "synthesizes",
+        "source_ids": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R07-B-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentB",
+        "round": 7,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R06-A-P01"
+        ],
+        "relation": "synthesizes",
+        "source_ids": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R08-A-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentA",
+        "round": 8,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R07-B-P01"
+        ],
+        "relation": "synthesizes",
+        "source_ids": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R09-B-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentB",
+        "round": 9,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R08-A-P01"
+        ],
+        "relation": "synthesizes",
+        "source_ids": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R10-A-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentA",
+        "round": 10,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R09-B-P01"
+        ],
+        "relation": "synthesizes",
+        "source_ids": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R11-B-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentB",
+        "round": 11,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R10-A-P01"
+        ],
+        "relation": "synthesizes",
+        "source_ids": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      },
+      {
+        "id": "R12-A-P01",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "side": "agentA",
+        "round": 12,
+        "claim": "Nested greywater-filled hull blocks for dual-action cosmic radiation shields.",
+        "reasoning": "CONSENSUS REACHED AND SEALED PROMPT:\nThe Martian agricultural dome design has been fully optimized. Integrating recycled greywater barriers satisfies all radiation and mass restrictions.\n\nM0 CORE CLAIM: Sustainable biodome blueprint is certified.\nM2 RAG: Sagan-Habitation-Guidelines\nM4 HOPFIELD: consensus_loop_deadlock_015 (Closed-loop criteria accomplished).",
+        "evidence": "",
+        "target_argument_ids": [
+          "R11-B-P01"
+        ],
+        "relation": "synthesizes",
+        "source_ids": [],
+        "score": {
+          "relevance": 95,
+          "engagement": 70,
+          "evidence": 85,
+          "novelty": 53,
+          "clarity": 45,
+          "synthesis": 88,
+          "impact": 78,
+          "caveat": "Local deterministic judge scores are research signals, not ground truth."
+        },
+        "judge_notes": "Local deterministic judge scores are research signals, not ground truth."
+      }
+    ],
+    "sources": [],
+    "events": [
+      {
+        "event": "battle.created",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:24.071Z",
+        "payload": {
+          "visibility": "public"
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:24.606Z",
+        "side": "agentB",
+        "round": 1
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:24.606Z",
+        "side": "agentB",
+        "round": 1
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:24.606Z",
+        "side": "agentB",
+        "round": 1,
+        "payload": {
+          "turnId": "lbh63",
+          "argumentIds": [
+            "R01-B-P01"
+          ],
+          "roundWinner": "agentB"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:24.606Z",
+        "side": "agentB",
+        "round": 1,
+        "payload": {
+          "score": {
+            "relevance": 71,
+            "engagement": 70,
+            "evidence": 61,
+            "novelty": 68,
+            "clarity": 60,
+            "synthesis": 55,
+            "impact": 67,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:24.606Z",
+        "side": "agentB",
+        "round": 1,
+        "payload": {
+          "memoryUpdate": "R01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:28.137Z",
+        "side": "agentA",
+        "round": 2
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:28.137Z",
+        "side": "agentA",
+        "round": 2
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:28.137Z",
+        "side": "agentA",
+        "round": 2,
+        "payload": {
+          "turnId": "5x2bdv",
+          "argumentIds": [
+            "R02-A-P01"
+          ],
+          "roundWinner": "agentA"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:28.137Z",
+        "side": "agentA",
+        "round": 2,
+        "payload": {
+          "score": {
+            "relevance": 65,
+            "engagement": 82,
+            "evidence": 55,
+            "novelty": 53,
+            "clarity": 53,
+            "synthesis": 55,
+            "impact": 58,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:28.137Z",
+        "side": "agentA",
+        "round": 2,
+        "payload": {
+          "memoryUpdate": "R02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:"
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:29.842Z",
+        "side": "agentB",
+        "round": 3
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:29.842Z",
+        "side": "agentB",
+        "round": 3
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:29.842Z",
+        "side": "agentB",
+        "round": 3,
+        "payload": {
+          "turnId": "rbbn5e",
+          "argumentIds": [
+            "R03-B-P01"
+          ],
+          "roundWinner": "agentB"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:29.842Z",
+        "side": "agentB",
+        "round": 3,
+        "payload": {
+          "score": {
+            "relevance": 86,
+            "engagement": 82,
+            "evidence": 76,
+            "novelty": 63,
+            "clarity": 55,
+            "synthesis": 72,
+            "impact": 75,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:29.842Z",
+        "side": "agentB",
+        "round": 3,
+        "payload": {
+          "memoryUpdate": "R03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:30.929Z",
+        "side": "agentA",
+        "round": 4
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:30.929Z",
+        "side": "agentA",
+        "round": 4
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:30.929Z",
+        "side": "agentA",
+        "round": 4,
+        "payload": {
+          "turnId": "64tgsc",
+          "argumentIds": [
+            "R04-A-P01"
+          ],
+          "roundWinner": "agentA"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:30.929Z",
+        "side": "agentA",
+        "round": 4,
+        "payload": {
+          "score": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:30.929Z",
+        "side": "agentA",
+        "round": 4,
+        "payload": {
+          "memoryUpdate": "R04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:31.667Z",
+        "side": "agentB",
+        "round": 5
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:31.667Z",
+        "side": "agentB",
+        "round": 5
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:31.667Z",
+        "side": "agentB",
+        "round": 5,
+        "payload": {
+          "turnId": "3imy1f",
+          "argumentIds": [
+            "R05-B-P01"
+          ],
+          "roundWinner": "agentB"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:31.667Z",
+        "side": "agentB",
+        "round": 5,
+        "payload": {
+          "score": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:31.667Z",
+        "side": "agentB",
+        "round": 5,
+        "payload": {
+          "memoryUpdate": "R05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:32.345Z",
+        "side": "agentA",
+        "round": 6
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:32.345Z",
+        "side": "agentA",
+        "round": 6
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:32.345Z",
+        "side": "agentA",
+        "round": 6,
+        "payload": {
+          "turnId": "r8vz3",
+          "argumentIds": [
+            "R06-A-P01"
+          ],
+          "roundWinner": "agentA"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:32.345Z",
+        "side": "agentA",
+        "round": 6,
+        "payload": {
+          "score": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:32.345Z",
+        "side": "agentA",
+        "round": 6,
+        "payload": {
+          "memoryUpdate": "R06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.020Z",
+        "side": "agentB",
+        "round": 7
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.020Z",
+        "side": "agentB",
+        "round": 7
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.020Z",
+        "side": "agentB",
+        "round": 7,
+        "payload": {
+          "turnId": "oljc8m",
+          "argumentIds": [
+            "R07-B-P01"
+          ],
+          "roundWinner": "agentB"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.020Z",
+        "side": "agentB",
+        "round": 7,
+        "payload": {
+          "score": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.020Z",
+        "side": "agentB",
+        "round": 7,
+        "payload": {
+          "memoryUpdate": "R07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.693Z",
+        "side": "agentA",
+        "round": 8
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.693Z",
+        "side": "agentA",
+        "round": 8
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.693Z",
+        "side": "agentA",
+        "round": 8,
+        "payload": {
+          "turnId": "dvhpz",
+          "argumentIds": [
+            "R08-A-P01"
+          ],
+          "roundWinner": "agentA"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.693Z",
+        "side": "agentA",
+        "round": 8,
+        "payload": {
+          "score": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:33.693Z",
+        "side": "agentA",
+        "round": 8,
+        "payload": {
+          "memoryUpdate": "R08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:34.365Z",
+        "side": "agentB",
+        "round": 9
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:34.365Z",
+        "side": "agentB",
+        "round": 9
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:34.365Z",
+        "side": "agentB",
+        "round": 9,
+        "payload": {
+          "turnId": "mhm9fq",
+          "argumentIds": [
+            "R09-B-P01"
+          ],
+          "roundWinner": "agentB"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:34.365Z",
+        "side": "agentB",
+        "round": 9,
+        "payload": {
+          "score": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:34.365Z",
+        "side": "agentB",
+        "round": 9,
+        "payload": {
+          "memoryUpdate": "R09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.046Z",
+        "side": "agentA",
+        "round": 10
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.046Z",
+        "side": "agentA",
+        "round": 10
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.046Z",
+        "side": "agentA",
+        "round": 10,
+        "payload": {
+          "turnId": "nvtcy",
+          "argumentIds": [
+            "R10-A-P01"
+          ],
+          "roundWinner": "agentA"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.046Z",
+        "side": "agentA",
+        "round": 10,
+        "payload": {
+          "score": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.046Z",
+        "side": "agentA",
+        "round": 10,
+        "payload": {
+          "memoryUpdate": "R10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.718Z",
+        "side": "agentB",
+        "round": 11
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.718Z",
+        "side": "agentB",
+        "round": 11
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.718Z",
+        "side": "agentB",
+        "round": 11,
+        "payload": {
+          "turnId": "cjicr",
+          "argumentIds": [
+            "R11-B-P01"
+          ],
+          "roundWinner": "agentB"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.718Z",
+        "side": "agentB",
+        "round": 11,
+        "payload": {
+          "score": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:35.718Z",
+        "side": "agentB",
+        "round": 11,
+        "payload": {
+          "memoryUpdate": "R11-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "loop.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:36.467Z",
+        "side": "agentA",
+        "round": 12
+      },
+      {
+        "event": "turn.started",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:36.467Z",
+        "side": "agentA",
+        "round": 12
+      },
+      {
+        "event": "turn.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:36.467Z",
+        "side": "agentA",
+        "round": 12,
+        "payload": {
+          "turnId": "f8l4oc",
+          "argumentIds": [
+            "R12-A-P01"
+          ],
+          "roundWinner": "agentA"
+        }
+      },
+      {
+        "event": "judge.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:36.467Z",
+        "side": "agentA",
+        "round": 12,
+        "payload": {
+          "score": {
+            "relevance": 95,
+            "engagement": 70,
+            "evidence": 85,
+            "novelty": 53,
+            "clarity": 45,
+            "synthesis": 88,
+            "impact": 78,
+            "caveat": "Local deterministic judge scores are research signals, not ground truth."
+          },
+          "judgeAdapter": "local-deterministic"
+        }
+      },
+      {
+        "event": "loop.memory.updated",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:36.467Z",
+        "side": "agentA",
+        "round": 12,
+        "payload": {
+          "memoryUpdate": "R12-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+        }
+      },
+      {
+        "event": "battle.completed",
+        "battle_id": "battle_1782311844071_tns6hv",
+        "created_at": "2026-06-24T14:37:36.467Z",
+        "side": "agentA",
+        "round": 12,
+        "payload": {
+          "winner": "tie"
+        }
+      }
+    ],
+    "loop_memory": "R01-B-P01: Closed-loop aeroponic root watering sequence with direct nitrogen dosing.\nR02-A-P01: ADVERSARIAL RADIATION ANALYSIS / CHALLENGE:\nR03-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR04-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR05-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR06-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR07-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR08-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR09-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR10-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR11-B-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields.\nR12-A-P01: Nested greywater-filled hull blocks for dual-action cosmic radiation shields."
+  }
+]

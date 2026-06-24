@@ -50,8 +50,8 @@ The default mock mode does not require a GPU, database, API key, or background s
 ## Quick Start: macOS
 
 ```bash
-git clone https://github.com/bclonan/rally-os.git
-cd rally-os
+git clone https://github.com/bclonan/cognitive-pong.git
+cd cognitive-pong
 npm install
 cp .env.example .env
 npm run dev
@@ -73,8 +73,8 @@ Then choose `Ollama local URL` for either agent and use `http://localhost:11434`
 Use PowerShell:
 
 ```powershell
-git clone https://github.com/bclonan/rally-os.git
-cd rally-os
+git clone https://github.com/bclonan/cognitive-pong.git
+cd cognitive-pong
 npm install
 Copy-Item .env.example .env
 npm run dev
@@ -100,8 +100,8 @@ Then choose `Ollama local URL` in the app and set the instance URL to `http://lo
 ## Quick Start: Linux
 
 ```bash
-git clone https://github.com/bclonan/rally-os.git
-cd rally-os
+git clone https://github.com/bclonan/cognitive-pong.git
+cd cognitive-pong
 npm install
 cp .env.example .env
 npm run dev
@@ -167,8 +167,8 @@ Local persistence examples:
 ```bash
 # Default compatibility mode uses JSON files.
 # SQLite mode uses one local database file for matches and Arena Loop battles.
-COGNITIVE_PONG_MATCHES_STORE=./data/rally-os.sqlite
-COGNITIVE_PONG_ARENA_STORE=./data/rally-os.sqlite
+COGNITIVE_PONG_MATCHES_STORE=./data/cognitive-pong.sqlite
+COGNITIVE_PONG_ARENA_STORE=./data/cognitive-pong.sqlite
 ```
 
 SQLite mode requires Node.js with `node:sqlite` support. The default JSON mode still works without a database.
@@ -220,7 +220,7 @@ Local data is intentionally simple:
 
 - Published matches: `data/matches.json` by default, or a configured SQLite table in `COGNITIVE_PONG_MATCHES_STORE`
 - Arena Loop battles: `data/arena-loop-battles.json` by default, or a configured SQLite table in `COGNITIVE_PONG_ARENA_STORE`
-- Optional SQLite location: `data/rally-os.sqlite` when both store variables point at that file
+- Optional SQLite location: `data/cognitive-pong.sqlite` when both store variables point at that file
 - Custom saved agents: browser `localStorage`
 - Session exports: downloaded transcript, Markdown, JSON, JSONL, or ZIP files
 - Arena Loop research bundles: generated from persisted battle state
@@ -270,3 +270,7 @@ That is intentional. Mock mode proves the UI, persistence, replay, scoring, and 
 - Browser-supplied shell commands are ignored for local CLI bridges; configure allowlisted profiles on the server.
 
 See [SECURITY.md](SECURITY.md) for details.
+
+## Open to work
+
+Homepage : https://bclonan.netlify.app

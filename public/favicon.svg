@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cognitive Pong favicon">
+  <rect width="64" height="64" rx="12" fill="#05070A"/>
+  <rect x="4" y="4" width="56" height="56" rx="10" fill="none" stroke="#132329" stroke-width="2"/>
+  <path d="M32 10v6M32 22v6M32 36v6M32 48v6" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+  <rect x="11" y="22" width="6" height="20" rx="2" fill="#00FF41"/>
+  <rect x="47" y="22" width="6" height="20" rx="2" fill="#00B4FF"/>
+  <rect x="36" y="28" width="8" height="8" rx="1.5" fill="#F8FAFC"/>
+  <path d="M19 18c4-5 10-7 17-5M45 46c-4 5-10 7-17 5" fill="none" stroke="#00FF41" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <path d="M45 18c-4-5-10-7-17-5M19 46c4 5 10 7 17 5" fill="none" stroke="#00B4FF" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+</svg>

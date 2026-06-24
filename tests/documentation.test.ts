@@ -27,7 +27,7 @@ test("README documents the platform, use cases, and cross-platform setup", () =>
   assert.match(readme, /ollama/);
   assert.match(readme, /huggingface/);
   assert.match(readme, /COGNITIVE_PONG_MATCHES_STORE/);
-  assert.match(readme, /data\/rally-os\.sqlite/);
+  assert.match(readme, /data\/cognitive-pong\.sqlite/);
   assert.doesNotMatch(readme, /Start Cognitive Loop|Llama 3\.1 Local|Gemini-centric|D3-powered/);
 });
 
