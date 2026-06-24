@@ -1,0 +1,50 @@
+{
+  "name": "cognitive-pong",
+  "description": "A provider-agnostic two-agent reasoning arena where Pong rallies visualize debate turns, critiques, evidence moves, scoring, and synthesis.",
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Bradley Clonan <clonanxyz@gmail.com> (https://bclonan.netlify.app)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bclonan/rally-os.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bclonan/rally-os/issues"
+  },
+  "homepage": "https://github.com/bclonan/rally-os#readme",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "start": "node dist/server.cjs",
+    "clean": "node scripts/clean.mjs",
+    "lint": "tsc --noEmit",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "d3": "^7.9.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^6.2.3"
+  },
+  "optionalDependencies": {
+    "@google/genai": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

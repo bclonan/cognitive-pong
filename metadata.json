@@ -1,0 +1,6 @@
+{
+  "name": "Cognitive Pong",
+  "description": "A provider-agnostic two-agent reasoning arena where Pong rallies visualize arguments, critiques, evidence moves, scoring, synthesis, replays, exports, and local leaderboard state.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_PROVIDER_ADAPTERS"]
+}
