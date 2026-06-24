@@ -41,7 +41,7 @@ test("local SQLite persistence stores matches and Arena Loop battles in one data
   skip: !isSQLiteRuntimeAvailable(),
 }, () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "cognitive-pong-sqlite-"));
-  const dbFile = path.join(dir, "rally-os.sqlite");
+  const dbFile = path.join(dir, "cognitive-pong.sqlite");
 
   const savedMatch = appendStoredMatch({
     topic: "Validate local SQLite persistence.",

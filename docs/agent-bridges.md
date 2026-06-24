@@ -181,7 +181,7 @@ COGNITIVE_PONG_AGENT_BRIDGE_ARGS=["./local-agent.js"]
 Named profile example:
 
 ```bash
-COGNITIVE_PONG_CLI_PROFILES={"research_agent":{"command":"node","args":["./agents/research-agent.js"],"cwd":"C:/work/rally-os","timeoutMs":30000}}
+COGNITIVE_PONG_CLI_PROFILES={"research_agent":{"command":"node","args":["./agents/research-agent.js"],"cwd":"C:/work/cognitive-pong","timeoutMs":30000}}
 ```
 
 Then select bridge kind `cli` and profile id `research_agent` for the agent. Unknown profile ids are rejected.
